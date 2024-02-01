@@ -16,7 +16,6 @@ export default (): express.Router => {
     countries(router)
     // Salesrep Route
     salesrep(router)
-    // Optimal Route
 
     // 404 Page Not Found
     router.use(checkEndpoint)
